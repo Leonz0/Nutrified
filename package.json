@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "default": "index.html",
+  "description": "Recipe application",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Leon",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.26.0",
+    "fractional": "^1.0.0",
+    "liteserver": "^0.3.0",
+    "parcel": "^2.7.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.55.0",
+    "webextension-polyfill": "^0.10.0"
+  }
+}
